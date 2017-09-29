@@ -1,0 +1,34 @@
+// Initial tags
+====================================================
+git init
+git status
+// untracked files > git not care about them.
+git add . > stagged files
+git rm --cached single_file_name > unstage files
+git rm --cached -r .  > remove all files from stage
+git commit -a -m "" > add files and commit
+
+// part two commands
+====================================================
+
+git diff
+git log
+git log --oneline = dont show author and name
+git log  -2 --oneline > show 2 line of log
+git log -p > show changes with log
+git log --stat
+
+
+// part three command
+====================================================
+git checkout -- . > remove changed till last commit
+git checkout -- file_name
+git reset HEAD .
+git reset file_name
+
+git reset --hard > delete and modify all changes, like checkout
+
+// part four command
+====================================================
+git branch -b dev > git checkout dev
+git branch -d dev > delete branch
