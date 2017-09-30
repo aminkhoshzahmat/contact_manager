@@ -33,8 +33,11 @@ git reset --hard > delete and modify all changes, like checkout
 git branch -b dev > git checkout dev
 git branch -d dev > delete branch
 git checkout branch_name
-<<<<<<< HEAD
-dev
-=======
-master
->>>>>>> dev
+git merge dev
+
+// part five :: Stash
+====================================================
+git stash > like checkout, but saved
+git stash list
+git stash drop
+git stash pop

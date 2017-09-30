@@ -10,4 +10,6 @@ class TestsController extends Controller
     // commit two
     // commit three
     // commit master
+    // git commit stash
+    // git commit stash
 }
