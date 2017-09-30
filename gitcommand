@@ -38,6 +38,7 @@ git merge dev
 // part five :: Stash
 ====================================================
 git stash > like checkout, but saved
-git stash list
+git stash list > list can be viewed on any branches
 git stash drop
-git stash pop
+git stash pop(apply and drop) | apply
+git stash show -p stash@{1} > preview changes
