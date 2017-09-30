@@ -42,3 +42,8 @@ git stash list > list can be viewed on any branches
 git stash drop
 git stash pop(apply and drop) | apply
 git stash show -p stash@{1} > preview changes
+
+
+// part five :: .gitignore
+====================================================
+.gitignore must add to repo
