@@ -12,4 +12,5 @@ class TestsController extends Controller
     // commit master
     // git commit stash
     // git commit stash
+    // git rm cached test
 }
