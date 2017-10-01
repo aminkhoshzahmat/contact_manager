@@ -8,7 +8,7 @@ NC=\033[0m#................no color
 SPRINT=1.0.0#..............Version
 FEATURES=4#......scenarios to test
 #==================================
-# Start                           #
+# Start Program                   #
 #==================================
 
 help:
